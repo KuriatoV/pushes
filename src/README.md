@@ -83,7 +83,7 @@ curl -X POST -H "Authorization: key=AAAArY6Tlhk:APA91bHpo8MWju3Gl0bhh9KpEjdVu_tL
     "body": "Хватит терпеть",
     "icon": "firebase-logo.png",
   }},
-  "to": "fb96xi9GOB5oSScUK54GgK:APA91bFedhQfTwDxu1hNrlz-l1UrwP9x6zOx4ettHINMPA_8kJWvVQo2JpSzBRiiKzH1kiSgXaTDTnE1bRZaoqqIQ7umo2gzw5C6XDBTp7iQmDzZJM2Xmblwqct20lH23oakvPdIVXlH"
+  "to": "e0z5Hc3T3tJ__kPjNd1uur:APA91bE1-Tejo1ftrll555_FoPDD1XF4du9sWItNl42iiP8KOB05zADvfgRX-hCCXSXGFe1ozpb9PTsDjgm924DJtbJyvVCObIQApknVT1cD6L-x_GN1HAg-zC-kxG6pvXKGs6F-LBk3"
 }' "https://fcm.googleapis.com/fcm/send"
 ```
 
