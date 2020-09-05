@@ -77,13 +77,13 @@ fetch('https://fcm.googleapis.com/fcm/send', {
 ### cURL
 ```
 curl -X POST -H "Authorization: key=AAAArY6Tlhk:APA91bHpo8MWju3Gl0bhh9KpEjdVu_tLrPOhbgdF3WS5EKifU9Tf4sOOpbYARzrGOS-nxsXnzqrIKKl7Sc3OAFVOrhiwcd2BCMAcTta47dJP5HOVhlOk5Nyn-S_TTYSduAkyOWzMKdTm" -H "Content-Type: application/json" -d '{
-  "notification": {
-    "title": "Споки vs. Ноки",
-    "body": "Ира <3",
+  "data": {
+    "message":{
+    "title": "Хо-Хо",
+    "body": "Хватит терпеть",
     "icon": "firebase-logo.png",
-    "click_action": "http://localhost:8081"
-  },
-  "to": "eUEeqidp8Bs9a3wcTI6Xul:APA91bFmXI56BPrilMzIDtNK1A_N234aB_dVycEGWebxB8s5SIAmN0HDrXuEpknsobp_-wHGW7g0GzAzqE5RlrXEuDrDSj9UV9QwNptKSLTBeJvkPq4ZdTRWLSk6s-RPFC6rGVCtWP7v"
+  }},
+  "to": "fb96xi9GOB5oSScUK54GgK:APA91bFedhQfTwDxu1hNrlz-l1UrwP9x6zOx4ettHINMPA_8kJWvVQo2JpSzBRiiKzH1kiSgXaTDTnE1bRZaoqqIQ7umo2gzw5C6XDBTp7iQmDzZJM2Xmblwqct20lH23oakvPdIVXlH"
 }' "https://fcm.googleapis.com/fcm/send"
 ```
 
